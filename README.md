@@ -42,4 +42,24 @@ kafka-stock-market-project
 └── README.md         # Project documentation
 
 ## Example Streaming Data
+AAPL,189
+TSLA,245
+GOOGLE,138
+AMZN,175
+MSFT,420
+## Example Output
+
+### Producer Streaming Data
+
+![Producer Output](screenshots/producer_output.png)
+
+### Consumer Receiving Data
+
+![Consumer Output](screenshots/consumer_output.png)
+
+## Author
+Lokesh Reddy  
+Master’s in Information Technology Management  
+Aspiring Data Engineer  
+United States
 
