@@ -4,15 +4,15 @@ This project demonstrates a **real-time data engineering pipeline** using Apache
 
 ## Architecture
 
-Producer (Python Script)  
-↓  
-Apache Kafka Topic  
-↓  
-Kafka Consumer  
-↓  
-Data Processing / Storage (AWS S3)  
-↓  
-Query using Amazon Athena
+Python Producer
+      ↓
+Apache Kafka Topic
+      ↓
+Kafka Consumer
+      ↓
+AWS S3 Data Lake
+      ↓
+Amazon Athena Query
 
 ## Technologies Used
 
@@ -31,6 +31,15 @@ Query using Amazon Athena
 3. A **Kafka consumer** reads the streaming data.
 4. The consumer can process and store data in **AWS S3**.
 5. Data can then be queried using **Amazon Athena**.
+
+## Project Structure
+
+kafka-stock-market-project
+│
+├── producer.py       # Sends stock market data to Kafka
+├── consumer.py       # Reads streaming data from Kafka
+├── requirements.txt  # Python dependencies
+└── README.md         # Project documentation
 
 ## Example Streaming Data
 
